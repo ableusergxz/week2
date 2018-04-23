@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: skyblue;
+  cursor: pointer;
+}
+#myP {
+  width: 100%;
+  height: 30px;
+  display: inline-block;
+}
+.content {
+  width: 200px;
+  height: 110px;
+  margin-left: 50px;
+}
+.content .textC {
+  width: 200px;
+  height: 420px;
+  margin-left: 30px;
+}
+.content .textC > p {
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.content .textC .textP {
+  width: 200px;
+  height: 120px;
+  margin-left: 30px;
+  line-height: 50px;
+}
+.content .textC .textX {
+  width: 200px;
+  height: 150px;
+  margin-left: 30px;
+  line-height: 50px;
+}
+.content .textC .base {
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+  margin-left: 30px;
+}
+.content .textD {
+  width: 200px;
+  height: 360px;
+  margin-left: 30px;
+}
+.content .textD .texty {
+  width: 200px;
+  height: 50px;
+  margin-left: 30px;
+  line-height: 2;
+  margin-bottom: 15px;
+  line-height: 50px;
+}
+.content .textD .btngame {
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.content .textD .btnlol {
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+  margin-left: 30px;
+}

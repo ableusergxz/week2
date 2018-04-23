@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>树状菜单</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <p id="myP">-我的电脑:</p>
+        <div class="content">
+            <p class="btnC">-C:</p>
+                <div class="textC">
+                    <p>a.txt</p>
+                    <p class="btncy">-常用:</p>
+                       <div class="textP">
+                           <p>b.txt</p>
+                           <p>c.html</p>
+                       </div>
+                    <p class="btncx">-程序</p>
+                        <div class="textX">
+                           <p>教学.doc</p>
+                           <p class="btnhtml">-demo</p>
+                               <p class="base">base.js</p>
+                       </div>
+                </div>
+         <p class="btnD">-D:</p>
+            <div class="textD">
+                <p class="btnys">-影视:</p>
+                    <div class="texty">
+                            <p>金刚.rmvb</p>
+                            <p>冰河时代.rm</p>
+                    </div>
+               <p class="btngame">-游戏:</p>
+                    <p class="btnlol">LOL.exe</p>
+            </div>
+
+        </div>
+</body>
+<script src="../static/lib/require.js"></script>
+<!--  <script>
+      require(['../static/js/config.js'],function(){
+           require(["main"])
+      })
+</script> -->
+<script src="../static/lib/jquery-1.10.1.min.js"></script>
+<script>
+   $(function(){
+       $("#myP").click(function(){
+          $(".content").toggle();
+       });
+       $(".btnC").click(function(){
+           $(".textC").toggle();
+       })
+       $(".btncy").click(function(){
+            $(".textP").toggle();
+       })
+       $(".btncx").click(function(){
+            $(".textX").toggle();
+       })
+       $(".btnhtml").click(function(){
+            $(".base").toggle();
+       })
+       $(".btnD").click(function(){
+            $(".textD").toggle();
+       })
+       $(".btnys").click(function(){
+            $(".texty").toggle();
+       })
+        $(".btngame").click(function(){
+            $(".btnlol").toggle();
+       })
+})
+</script>
+
+</html>
